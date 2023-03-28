@@ -1,0 +1,7 @@
+__pycache__
+img_temp/
+img_temp/*
+preprocessed_dataset/
+generate_dataset/temp/
+data_lazy_av2_grid.py
+temp*

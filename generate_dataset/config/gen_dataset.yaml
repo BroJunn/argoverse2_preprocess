@@ -1,0 +1,19 @@
+# arguments in rasterization
+grid_height_cells: 256
+grid_width_cells: 256
+sdc_y_in_grid: 192     # the y position in pixel coordinates(origin at top left corner)   
+sdc_x_in_grid: 128     # the x position in pixel coordinates(origin at top left corner) 
+pixels_per_meter: 2.4     # initial setting: 3.2
+referenced_time_step: 59     # the receptive field is based on which time step
+
+# size of agent with shape. unit: meter
+LENGTH_VEHICLE: 4.66
+WIDTH_VEHICLE: 1.82
+LENGTH_BUS: 15.0
+WIDTH_BUS: 2.9
+
+# 
+dataset_type: train
+
+# fixed dataset parameter
+NUM_ALL_STEPS: 110
